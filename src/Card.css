@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.cards{
+    padding: 10px 20px;
+    background: #fff;
+    display: inline-flex;
+    width: 30%;
+    height: 300px;
+      
+}
+.cards .cartCard{
+    border: solid 1px green;
+    
+    
+
+}
+.cards .cartCard .card-img img{
+    padding: 10px 20px;
+    height: 200px;
+    width: 70%;
+    
+}
+.card-heading{
+    display: inline-flex;
+}
+.cards .cartCard .card-heading h3{
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-heading h3:first-child{
+   color: red;
+
+    
+}
