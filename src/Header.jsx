@@ -18,7 +18,7 @@ function Header() {
 
       </ul>
       <div className="rightCart">
-        <img src={process.env.PUBLIC_URL+'/cart.png'}/>
+        <img src={process.env.PUBLIC_URL+'/cart2.png'}/>
       </div>
   </div>
 

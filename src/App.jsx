@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Header from './Header.jsx';
 import Router from './Router';
-
+import Loader from "react-loader-spinner";
 class App extends React.Component{
 
   
@@ -16,6 +16,7 @@ class App extends React.Component{
   render(){ 
     return (<>
   <Header/>
+ 
   <Router />
     </>
     );

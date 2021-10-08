@@ -1,4 +1,5 @@
 import React from 'react';
+import Loader from 'react-loader-spinner';
 import {Route,Switch} from 'react-router-dom';
 import About from './About';
 import Contact from "./Contact";
@@ -8,6 +9,7 @@ import Service from './Service';
 const Router = () => {
      return (
     <>
+    
          <Switch>
            <Route exact path='/' component={Home}/>
            <Route exact path='/home' component={Home}/>

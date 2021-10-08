@@ -2,7 +2,7 @@
 function Contact() {
   return (
   <>
-  Contact Page
+ <h3 style={{width:'50vh',margin:'auto'}}>Comming Soon</h3>
   </>
   );
 }

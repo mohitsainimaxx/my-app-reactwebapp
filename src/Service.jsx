@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Loader from "react-loader-spinner";
 import './Card.css';
 class Service extends React.Component{
   constructor(props) {
@@ -27,6 +28,13 @@ class Service extends React.Component{
     console.log(this.state);
   return (
   <>
+   <Loader
+        type="Puff"
+        color="#00BFFF"
+        height={'100vh'}
+        width={'100vw'}
+        timeout={1500} //3 secs
+      />
   <section>
       {this.state.items.map((item)=>{
      
